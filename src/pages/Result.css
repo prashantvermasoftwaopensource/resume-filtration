@@ -1,0 +1,80 @@
+.result-container{
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+.score-card,
+.status-card,
+.skills-card {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.result-container h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.result-container >p{
+    text-align: center;
+}
+
+.score-card p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.status-card p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+.skills-card ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.skills-card li{
+    padding: 8px 14px;
+    background: #e2e8f0;
+    border-radius: 20px;
+}
+
+.score-card h2,
+.status-card h2,
+.skills-card h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.result-actions {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.result-actions button {
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.result-actions button:hover{
+    background: red;
+}

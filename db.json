@@ -1,0 +1,9 @@
+
+{
+  "result": {
+    "fileName": "ML-Resume.pdf",
+    "score": 95,
+    "status": "Rejected",
+    "matchedSkills": ["Python", "Machine Learning", "Pandas"]
+  }
+}
